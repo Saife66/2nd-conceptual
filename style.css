@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* share style */
+body {}
+
+.btnprimary {
+    background-color: rgb(245, 44, 44);
+    color: white;
+
+}
+
+.btn {
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+
+}
+
+/* Nav and menu */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+
+.menus {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+
+.menus li {
+    list-style: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.menus li:hover {
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*  banner */
+
+.banercontainer {
+    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.bannercontent {
+    width: 50%;
+    margin: auto;
+}
+
+.bannertitle {
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+
+}
+
+
+.redtitle {
+    color: red;
+
+}
+
+.bannerdesctipyion {
+
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* service list section */
+.service-container {
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.knowncontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px ;
+    
+}
+.imageinfo{
+    color: white;
+}
+
+.servicebtn {
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+}
+
+.servicetitle{
+    font-size: 40px;
+font-weight: bold;
+padding: 7px;
+color: rgb(190, 207, 208);
+}
+
+.description-service {
+    width: 90%;
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(190, 207, 208);
+}
+.list{
+    font-size: 20px;
+    padding: 29px;
+    color: rgb(190, 207, 208);
+}
+.author {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.icon {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.serviceright{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: black;
+    
+    text-align: center;
+    padding: 50px;
+    
+  }
+.service-icon{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgb(26, 24, 24);
+}
+.serviceleft{
+    width: 50%;
+    margin-left: 29px;
+    padding: 50px;
+}
+
+.service-icon{
+    margin-bottom: 10px;
+}
+.morebtn{
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+    color:red
+
+}
+.vorder{
+    border-left: 1px solid red;
+    padding: 10px;
+}
+
+
+/* call icon */
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+    background: red;
+    border-radius: 20px;
+    margin-top: -97px;
+    padding: 20px;
+}
+.callicon{
+    width: 100px;
+}
+.callcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+
+}
+.calltitle{
+    color: white;
+    padding: 10px;
+}
+.calldesc{
+    color:white;
+    border-left: 2px solid grey;
+    width: 40%;
+    padding: 40px;
+}
+
+/* b;pg */
+
+.blog{
+    text-align: center;
+    padding: 40px;
+    margin: 10px 0px;
+
+}
+
+.bannertitles{
+    font-size: 56px;
+    font-weight: 900;
+}
+.blogdes{
+    font-size: 26px;
+    font-weight: 400;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+/* box */
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 90px 40px;
+}
+.blogimg{
+    width: 350px;
+    border-radius: 10px;
+}
+.boxinfo{
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+.boxdes{
+    padding: 15px;
+    
+
+}
+
+
+/* footer */
+.footer{
+   background-image: url('/asset/image/footer-bg.png') , linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9));
+   background-blend-mode: overlay;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 110px;
+}
+
+.socialicon{
+    display: flex;
+}
+.bottomlogo{
+    width: 200px;
+    
+}
+.fa-brands{
+margin-right: 17px;
+padding: 20px 6px;
+}
+.socialcontainer{
+    width: 24%;
+}
+.footerdes{
+    padding: 17px 0px;
+    line-height: 30px;
+}
+.footer-top h2{
+    padding-bottom: 20px;
+}
+.footer-top li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+
+/* footer bottom */
+.fthr{
+    width: 80%;
+    margin: auto;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.copydes{
+    margin-top: 20px;
+    color: white;
+    padding-top: 7px;
+}
