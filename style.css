@@ -58,7 +58,7 @@ body {}
 /*  banner */
 
 .banercontainer {
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     height: 100vh;
     background-repeat: no-repeat;
